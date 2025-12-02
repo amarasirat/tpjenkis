@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Checkout') { 
             steps { 
-                git branch: 'main', url: 'https://github.com/amarasirat/tp3' 
+                git branch: 'main', url: 'https://github.com/amarasirat/tpjenkis' 
             } 
         } 
  
